@@ -31,7 +31,7 @@ public class DataFromFile {
             }
             sc.close();
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);
         }
         return themes;
     }
